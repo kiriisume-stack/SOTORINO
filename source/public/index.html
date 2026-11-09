@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOTORINO</title>
+<meta name="description" content="庭・外構・住まい・土地まで、家まわりの知りたいが見つかる情報メディア。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="tokens.css">
+<style>
+html, body { background: #ffffff; }
+.st-header { top: env(safe-area-inset-top, 0px); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 50; background: #ffffff; }
+.st-wip { padding: 48px 0 0; }
+.st-wip__box { margin-top: 32px; padding: 28px; border-radius: var(--radius-md); background: var(--bg-soft); }
+.st-wip__box p + p { margin-top: 8px; }
+.st-wip__box .st-btn { margin-top: 18px; }
+.st-catlist__title { font-family: var(--font-mincho); font-size: 36px; font-weight: 600; letter-spacing: .05em; margin-top: 6px; }
+</style>
+<link rel="stylesheet" href="sotorino.css">
+</head>
+<body>
+<div id="app" class="st"></div>
+<script src="columns.js"></script>
+<script src="pages.js"></script>
+<script src="sotorino.js"></script>
+<script>
+(function () {
+  var S = window.Sotorino;
+  S.config.affiliate = false; S.config.showAdSlots = true; /* プレビューでは広告枠の目印を表示 */ /* アフィリエイト承認後に true にすると商品ページ・商品カードを公開 */ S.config.logoSrc = "img/logo.png"; S.colRegister("img/col/"); S.pgRegister("img/"); S.setImages({"article-fence-hero": "img/photo-fence.jpg", "cat-carport": "img/photo-carport-white.jpg", "cat-deck": "img/photo-living-deck.jpg", "cat-equipment": "img/photo-interior-night.jpg", "cat-exterior": "img/photo-wamodern-sea.jpg", "cat-garden": "img/photo-courtyard-deck.jpg", "cat-life": "img/photo-living-pendant.jpg", "cat-money": "img/photo-wood-balcony.jpg", "cat-realestate": "img/photo-house-day.jpg", "cat-reform": "img/photo-wood-ceiling.jpg", "fence-design": "img/photo-fence-wood-turf.jpg", "fence-privacy": "img/photo-fence.jpg", "fence-security": "img/photo-stone-dusk.jpg", "fence-wind": "img/photo-white-deck.jpg", "fencetype-bamboo": "img/fencetype-bamboo.jpg", "fencetype-blind": "img/fencetype-blind.jpg", "fencetype-cast": "img/fencetype-cast.jpg", "fencetype-lattice": "img/fencetype-lattice.jpg", "fencetype-louver": "img/fencetype-louver.jpg", "fencetype-mesh": "img/photo-mesh.jpg", "hero-01": "img/photo-garden-dusk.jpg", "hero-02": "img/photo-front-trees.jpg", "hero-03": "img/photo-house-dusk.jpg", "hero-04": "img/photo-fence.jpg", "thumb-carport": "img/photo-carport-stone.jpg", "thumb-deliverybox": "img/photo-deliverybox.jpg", "thumb-fence": "img/photo-fence-wood-turf.jpg", "thumb-garden-care": "img/photo-front-green.jpg", "thumb-land": "img/photo-hiraya-dusk.jpg", "thumb-paint": "img/photo-house-day.jpg", "thumb-subsidy": "img/photo-turf-approach.jpg", "thumb-turf": "img/photo-turf-wide.jpg", "photo-house-dusk": "img/photo-house-dusk.jpg", "photo-house-day": "img/photo-house-day.jpg", "photo-garden-dusk": "img/photo-garden-dusk.jpg", "photo-interior-city": "img/photo-interior-city.jpg", "photo-carport": "img/photo-carport.jpg", "photo-fence": "img/photo-fence.jpg", "photo-front-trees": "img/photo-front-trees.jpg", "photo-interior-living": "img/photo-interior-living.jpg", "photo-front-green": "img/photo-front-green.jpg", "photo-hiraya-dusk": "img/photo-hiraya-dusk.jpg", "photo-sea-deck": "img/photo-sea-deck.jpg", "photo-stone-dusk": "img/photo-stone-dusk.jpg", "photo-wood-balcony": "img/photo-wood-balcony.jpg", "photo-white-deck": "img/photo-white-deck.jpg", "photo-lawn-deck": "img/photo-lawn-deck.jpg", "photo-light": "img/photo-light.jpg", "photo-deliverybox": "img/photo-deliverybox.jpg", "photo-mesh": "img/photo-mesh.jpg", "photo-reform-living": "img/photo-reform-living.jpg", "photo-prod-camera": "img/photo-prod-camera.jpg", "photo-prod-stepstone": "img/photo-prod-stepstone.jpg", "photo-prod-shade": "img/photo-prod-shade.jpg", "photo-prod-bench": "img/photo-prod-bench.jpg", "photo-prod-shed": "img/photo-prod-shed.jpg", "photo-prod-planter": "img/photo-prod-planter.jpg", "photo-prod-hose": "img/photo-prod-hose.jpg", "photo-prod-faucet": "img/photo-prod-faucet.jpg", "photo-video-deck": "img/photo-video-deck.jpg", "photo-video-sheet": "img/photo-video-sheet.jpg", "photo-video-turf": "img/photo-video-turf.jpg", "photo-season-autumn": "img/photo-season-autumn.jpg", "photo-season-winter": "img/photo-season-winter.jpg", "photo-case-entrance": "img/photo-case-entrance.jpg", "photo-season-autumn2": "img/photo-season-autumn2.jpg", "feat-garden": "img/photo-turf-family.jpg", "feat-exterior": "img/photo-stone-dusk.jpg", "feat-land": "img/photo-white-deck.jpg", "feat-reform": "img/photo-wood-balcony.jpg", "purpose-bg": "img/photo-courtyard-night.jpg", "season-camp": "img/photo-season-autumn2.jpg", "prod-light": "img/photo-light.jpg", "prod-mesh": "img/photo-mesh.jpg", "case-reform": "img/photo-reform-living.jpg", "prod-camera": "img/photo-prod-camera.jpg", "prod-stepstone": "img/photo-prod-stepstone.jpg", "prod-shade": "img/photo-prod-shade.jpg", "prod-bench": "img/photo-prod-bench.jpg", "prod-shed": "img/photo-prod-shed.jpg", "prod-planter": "img/photo-prod-planter.jpg", "prod-hose": "img/photo-prod-hose.jpg", "prod-faucet": "img/photo-prod-faucet.jpg", "video-deck": "img/photo-video-deck.jpg", "video-sheet": "img/photo-video-sheet.jpg", "video-turf": "img/photo-video-turf.jpg", "promo-bg": "img/photo-black-house-light.jpg", "season-autumn": "img/photo-season-autumn.jpg", "season-winter": "img/photo-season-winter.jpg", "case-entrance": "img/photo-case-entrance.jpg", "photo-interior-night": "img/photo-interior-night.jpg", "photo-carport-stone": "img/photo-carport-stone.jpg", "photo-carport-white": "img/photo-carport-white.jpg", "photo-turf-approach": "img/photo-turf-approach.jpg", "photo-black-house-concrete": "img/photo-black-house-concrete.jpg", "photo-wamodern-sea": "img/photo-wamodern-sea.jpg", "photo-turf-dog": "img/photo-turf-dog.jpg", "photo-fence-wood-turf": "img/photo-fence-wood-turf.jpg", "photo-turf-family": "img/photo-turf-family.jpg", "photo-turf-wide": "img/photo-turf-wide.jpg", "photo-living-deck": "img/photo-living-deck.jpg", "photo-study-light": "img/photo-study-light.jpg", "photo-living-pendant": "img/photo-living-pendant.jpg", "photo-cabin-stove": "img/photo-cabin-stove.jpg", "photo-courtyard-deck": "img/photo-courtyard-deck.jpg", "photo-courtyard-night": "img/photo-courtyard-night.jpg", "photo-wood-ceiling": "img/photo-wood-ceiling.jpg", "photo-black-house-light": "img/photo-black-house-light.jpg"});
+  var app = document.getElementById('app');
+  var catPaths = {};
+  S.data.nav.concat(S.data.categories).forEach(function (c) { catPaths[c.path] = c; });
+
+  function shell(active, crumbs, inner) {
+    return '<div class="st">' + S.Header({ active: active }) + (crumbs ? S.Breadcrumb({ items: crumbs }) : '') + '<main id="main">' + inner + '</main>' + S.Footer() + '</div>';
+  }
+  function articleStub(a) {
+    var cat = S.data.categories.filter(function (c) { return c.id === a.cat || (a.cat === 'turf' && c.id === 'garden'); })[0] || S.data.categories[0];
+    var same = S.data.articles.filter(function (x) { return x.id !== a.id && x.cat === a.cat; }).slice(0, 3).map(function (x) { return x.id; });
+    if (same.length < 3) same = same.concat(['fence-guide', 'turf-cost', 'garden-guide'].filter(function (id) { return id !== a.id && same.indexOf(id) < 0; })).slice(0, 3);
+    return shell(cat.id, [{ name: 'ホーム', path: '/' }, { name: cat.name, path: cat.path }, { name: a.title }],
+      '<div class="st-container"><div class="st-article-wrap"><div><article>' + S.ArticleHeader({ article: a, lead: a.desc }) +
+      '<div class="st-wip__box"><p><strong>この記事の本文はまだ作成していません。</strong></p><p>本文まで作り込んだサンプルは「失敗しないフェンスの選び方」の記事です。記事ページの完成イメージはそちらでご覧ください。</p>' +
+      S.Button({ href: '/exterior/fence/fence-guide/', label: 'サンプル記事を見る' }) + '</div></article>' +
+      S.RelatedArticles({ title: '関連記事', items: same, uid: 'stub' }) + '</div>' +
+      '<aside class="st-side" aria-label="サイドバー">' + S.Ranking({ id: 'stub-rk' }) + S.ConsultBox() + '</aside></div></div>');
+  }
+  function categoryList(c) {
+    var list = S.data.articles.filter(function (a) { return a.cat === c.id || (c.id === 'garden' && a.cat === 'turf') || (c.id === 'new'); }).map(function (a) { return a.id; });
+    return shell(c.id, [{ name: 'ホーム', path: '/' }, { name: c.name }],
+      '<div class="st-container st-wip"><p class="st-sechead__en">CATEGORY</p><h1 class="st-catlist__title">' + S.esc(c.name) + '</h1>' +
+      '<div class="st-section" style="padding-top:32px">' + (list.length ? S.LatestGrid({ items: list, desc: true }) : '<p>このカテゴリの記事は準備中です。</p>') + '</div></div>');
+  }
+  function placeholder(path) {
+    return shell('', [{ name: 'ホーム', path: '/' }, { name: 'ページ準備中' }],
+      '<div class="st-container st-wip"><h1 class="st-catlist__title">このページは準備中です</h1><div class="st-wip__box"><p>デザインサンプルでは、トップ・記事（フェンス）・カテゴリ（人工芝）の3ページを作り込んでいます。</p>' +
+      S.Button({ href: '/', label: 'トップへ戻る' }) + '</div></div>');
+  }
+
+  // Each view has a plain hash name so the link can be shared.
+  var NAMES = { '/column/': 'column', '/': 'top', '/exterior/fence/fence-guide/': 'article', '/garden/turf/': 'turf', '/campaign/autumn-2026/': 'campaign' };
+  function setSeo(seo) {
+    document.title = seo ? seo.title : 'ページが見つかりません｜SOTORINO';
+    var m = document.querySelector('meta[name=description]'); if (!m) { m = document.createElement('meta'); m.name = 'description'; document.head.appendChild(m); }
+    m.content = seo ? seo.description : '庭・外構・住まい・土地まで、家まわりの知りたいが見つかる情報メディア。';
+    var ld = document.getElementById('st-ld'); if (ld) ld.remove();
+    if (seo && seo.ld && seo.ld.length) { ld = document.createElement('script'); ld.type = 'application/ld+json'; ld.id = 'st-ld'; ld.textContent = JSON.stringify(seo.ld); document.head.appendChild(ld); }
+  }
+  function render(path, keepScroll) {
+    path = String(path).split('#')[0];
+    var r = S.route(path);
+    if (!r) { var a = S.data.articles.filter(function (x) { return x.path === path; })[0]; r = { html: a ? articleStub(a) : S.NotFoundPage(), seo: null }; }
+    app.innerHTML = r.html;
+    setSeo(r.seo);
+    S.mount(app);
+    if (!keepScroll) window.scrollTo(0, 0);
+    var name = NAMES[path];
+    try { if (name && location.hash.slice(1) !== name) history.replaceState(null, '', '#' + name); } catch (e) {}
+  }
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#/"]');
+    if (!a) return;
+    e.preventDefault();
+    var d = document.querySelector('[data-st-drawer]'); if (d) d.hidden = true;
+    render(a.getAttribute('href').slice(1));
+  });
+  var start = { top: '/', column: '/column/', article: '/exterior/fence/fence-guide/', turf: '/garden/turf/', campaign: '/campaign/autumn-2026/' }[location.hash.slice(1)] || (location.hash.charAt(1) === '/' ? location.hash.slice(1) : '/');
+  render(start, true);
+  window.addEventListener('hashchange', function () { var p = { top: '/', column: '/column/', article: '/exterior/fence/fence-guide/', turf: '/garden/turf/', campaign: '/campaign/autumn-2026/' }[location.hash.slice(1)] || (location.hash.charAt(1) === '/' ? location.hash.slice(1) : null); if (p) render(p); });
+})();
+</script>
+</body>
+</html>

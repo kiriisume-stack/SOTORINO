@@ -1,3 +1,4 @@
-source/public/
+source/public/*
+!source/public/index.html
 source/dist/
 node_modules/
