@@ -1,0 +1,260 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-29T13:58:54Z"
+  },
+  "title": "SOTORINO",
+  "namespace": "Sotorino",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Photos"
+  ],
+  "assetGroups": {
+    "Photos": {
+      "name": "Photos",
+      "tile": "m",
+      "order": [
+        "article-fence-hero.jpg",
+        "cat-carport.jpg",
+        "cat-deck.jpg",
+        "cat-equipment.jpg",
+        "cat-exterior.jpg",
+        "cat-garden.jpg",
+        "cat-life.jpg",
+        "cat-money.jpg",
+        "cat-realestate.jpg",
+        "cat-reform.jpg",
+        "fence-design.jpg",
+        "fence-privacy.jpg",
+        "fence-security.jpg",
+        "fence-wind.jpg",
+        "fencetype-bamboo.jpg",
+        "fencetype-blind.jpg",
+        "fencetype-cast.jpg",
+        "fencetype-lattice.jpg",
+        "fencetype-louver.jpg",
+        "fencetype-mesh.jpg",
+        "hero-01.jpg",
+        "hero-02.jpg",
+        "hero-03.jpg",
+        "hero-04.jpg",
+        "thumb-carport.jpg",
+        "thumb-deliverybox.jpg",
+        "thumb-fence.jpg",
+        "thumb-garden-care.jpg",
+        "thumb-land.jpg",
+        "thumb-paint.jpg",
+        "thumb-subsidy.jpg",
+        "thumb-turf.jpg"
+      ],
+      "files": {
+        "article-fence-hero.jpg": {
+          "name": "article-fence-hero.jpg",
+          "blob": "fa88fa247c9f4330cafe399db0f8b1a0",
+          "size": 279509,
+          "type": "image/jpeg"
+        },
+        "cat-carport.jpg": {
+          "name": "cat-carport.jpg",
+          "blob": "93ce603ddf17c1b983a557850fc73e17",
+          "size": 22877,
+          "type": "image/jpeg"
+        },
+        "cat-deck.jpg": {
+          "name": "cat-deck.jpg",
+          "blob": "76205c70f6539d9fc8b877d84cd4ef3b",
+          "size": 22674,
+          "type": "image/jpeg"
+        },
+        "cat-equipment.jpg": {
+          "name": "cat-equipment.jpg",
+          "blob": "556983124b2d93266c18c8a4c91d12c5",
+          "size": 23844,
+          "type": "image/jpeg"
+        },
+        "cat-exterior.jpg": {
+          "name": "cat-exterior.jpg",
+          "blob": "f638f7a4ebe494e70fec10999b3ced68",
+          "size": 21004,
+          "type": "image/jpeg"
+        },
+        "cat-garden.jpg": {
+          "name": "cat-garden.jpg",
+          "blob": "54ca4a12187815f2b210b324ebf9cdf6",
+          "size": 27179,
+          "type": "image/jpeg"
+        },
+        "cat-life.jpg": {
+          "name": "cat-life.jpg",
+          "blob": "e9ee4f118b4e1543ed4884537445e623",
+          "size": 19298,
+          "type": "image/jpeg"
+        },
+        "cat-money.jpg": {
+          "name": "cat-money.jpg",
+          "blob": "b131e2bf1d35b1ed25c63a185d23fa7d",
+          "size": 25745,
+          "type": "image/jpeg"
+        },
+        "cat-realestate.jpg": {
+          "name": "cat-realestate.jpg",
+          "blob": "072c1a0248a3099752edf7f9dbb3d6d0",
+          "size": 21049,
+          "type": "image/jpeg"
+        },
+        "cat-reform.jpg": {
+          "name": "cat-reform.jpg",
+          "blob": "90da5ed11ba81e4422c67d58fcb061c4",
+          "size": 20080,
+          "type": "image/jpeg"
+        },
+        "fence-design.jpg": {
+          "name": "fence-design.jpg",
+          "blob": "538a7ef9c28d7a0dd2085a51bf286fbf",
+          "size": 42108,
+          "type": "image/jpeg"
+        },
+        "fence-privacy.jpg": {
+          "name": "fence-privacy.jpg",
+          "blob": "e12f3b8128c52920c81496db7202c5b5",
+          "size": 44317,
+          "type": "image/jpeg"
+        },
+        "fence-security.jpg": {
+          "name": "fence-security.jpg",
+          "blob": "02ade45ff5aa39a02e59b463f92051ca",
+          "size": 45896,
+          "type": "image/jpeg"
+        },
+        "fence-wind.jpg": {
+          "name": "fence-wind.jpg",
+          "blob": "3767a6259fe3010edea6a06cb692078a",
+          "size": 40283,
+          "type": "image/jpeg"
+        },
+        "fencetype-bamboo.jpg": {
+          "name": "fencetype-bamboo.jpg",
+          "blob": "0104b4aeba5184b0b129ef618df4bf34",
+          "size": 54429,
+          "type": "image/jpeg"
+        },
+        "fencetype-blind.jpg": {
+          "name": "fencetype-blind.jpg",
+          "blob": "3cea7dd5b200167056ebbcdef2f02e78",
+          "size": 43653,
+          "type": "image/jpeg"
+        },
+        "fencetype-cast.jpg": {
+          "name": "fencetype-cast.jpg",
+          "blob": "8d3be7d57c18d817c1611f661ea421ed",
+          "size": 58278,
+          "type": "image/jpeg"
+        },
+        "fencetype-lattice.jpg": {
+          "name": "fencetype-lattice.jpg",
+          "blob": "2e7bab8045231288702ee8f8184d244b",
+          "size": 48797,
+          "type": "image/jpeg"
+        },
+        "fencetype-louver.jpg": {
+          "name": "fencetype-louver.jpg",
+          "blob": "6a8d4616c1cac01cdf31fc99e9fbad7b",
+          "size": 44261,
+          "type": "image/jpeg"
+        },
+        "fencetype-mesh.jpg": {
+          "name": "fencetype-mesh.jpg",
+          "blob": "99288e3f3c8c5366855bd6118ba84e51",
+          "size": 56826,
+          "type": "image/jpeg"
+        },
+        "hero-01.jpg": {
+          "name": "hero-01.jpg",
+          "blob": "b2f483235f5c9391ae59f17dadcb182e",
+          "size": 237130,
+          "type": "image/jpeg"
+        },
+        "hero-02.jpg": {
+          "name": "hero-02.jpg",
+          "blob": "5cece5a69a6429576fb84efa1342da44",
+          "size": 277532,
+          "type": "image/jpeg"
+        },
+        "hero-03.jpg": {
+          "name": "hero-03.jpg",
+          "blob": "f676928792b6bfcfd25d56efb7ca1a92",
+          "size": 121477,
+          "type": "image/jpeg"
+        },
+        "hero-04.jpg": {
+          "name": "hero-04.jpg",
+          "blob": "33cb2633128bfa7501f81832262e62db",
+          "size": 110959,
+          "type": "image/jpeg"
+        },
+        "thumb-carport.jpg": {
+          "name": "thumb-carport.jpg",
+          "blob": "63c2da76c78fd852095a4a8bbf53bc39",
+          "size": 49210,
+          "type": "image/jpeg"
+        },
+        "thumb-deliverybox.jpg": {
+          "name": "thumb-deliverybox.jpg",
+          "blob": "7fb6d23c063efe4b5ae8005970c27993",
+          "size": 43413,
+          "type": "image/jpeg"
+        },
+        "thumb-fence.jpg": {
+          "name": "thumb-fence.jpg",
+          "blob": "af3fcf19af9dff8bb47348c3ed43edb6",
+          "size": 47289,
+          "type": "image/jpeg"
+        },
+        "thumb-garden-care.jpg": {
+          "name": "thumb-garden-care.jpg",
+          "blob": "c4457de65105a3030a496d33fc85ad66",
+          "size": 57095,
+          "type": "image/jpeg"
+        },
+        "thumb-land.jpg": {
+          "name": "thumb-land.jpg",
+          "blob": "3e7dedacd191e77fd94a0160438ecc10",
+          "size": 40620,
+          "type": "image/jpeg"
+        },
+        "thumb-paint.jpg": {
+          "name": "thumb-paint.jpg",
+          "blob": "c8c43e85ced03a712da174e5ae6c3a00",
+          "size": 39887,
+          "type": "image/jpeg"
+        },
+        "thumb-subsidy.jpg": {
+          "name": "thumb-subsidy.jpg",
+          "blob": "020eb2369fb7c8ec8d726dec5aa034c7",
+          "size": 53728,
+          "type": "image/jpeg"
+        },
+        "thumb-turf.jpg": {
+          "name": "thumb-turf.jpg",
+          "blob": "a48a98012beac51ef3795879f787719e",
+          "size": 55899,
+          "type": "image/jpeg"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Claude",
+    "at": "2026-10-29T13:58:54Z",
+    "via": "Claude",
+    "note": "SOTORINO デザインシステム初版（トークン・ブランドブック・コンポーネント41種・ページ例5種）"
+  }
+}

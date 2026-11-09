@@ -1,0 +1,1742 @@
+{
+ "nav": [
+  {
+   "id": "new",
+   "name": "新着記事",
+   "path": "/new/"
+  },
+  {
+   "id": "column",
+   "name": "コラム",
+   "path": "/column/"
+  },
+  {
+   "id": "garden",
+   "name": "庭づくり",
+   "path": "/garden/"
+  },
+  {
+   "id": "exterior",
+   "name": "外構・エクステリア",
+   "path": "/exterior/"
+  },
+  {
+   "id": "equipment",
+   "name": "住宅設備",
+   "path": "/equipment/"
+  },
+  {
+   "id": "reform",
+   "name": "リフォーム",
+   "path": "/reform/"
+  },
+  {
+   "id": "realestate",
+   "name": "不動産・土地",
+   "path": "/realestate/"
+  },
+  {
+   "id": "money",
+   "name": "お金・補助金",
+   "path": "/money/"
+  },
+  {
+   "id": "life",
+   "name": "暮らしの知識",
+   "path": "/life/"
+  }
+ ],
+ "categories": [
+  {
+   "id": "garden",
+   "name": "庭づくり",
+   "sub": "ガーデニング・人工芝",
+   "img": "cat-garden",
+   "path": "/garden/"
+  },
+  {
+   "id": "exterior",
+   "name": "外構・エクステリア",
+   "sub": "フェンス・門まわり",
+   "img": "cat-exterior",
+   "path": "/exterior/"
+  },
+  {
+   "id": "carport",
+   "name": "駐車場・カーポート",
+   "sub": "土間・コンクリート",
+   "img": "cat-carport",
+   "path": "/exterior/carport/"
+  },
+  {
+   "id": "deck",
+   "name": "ウッドデッキ",
+   "sub": "テラス・タイル",
+   "img": "cat-deck",
+   "path": "/exterior/deck/"
+  },
+  {
+   "id": "equipment",
+   "name": "住宅設備",
+   "sub": "門扉・照明・物置",
+   "img": "cat-equipment",
+   "path": "/equipment/"
+  },
+  {
+   "id": "reform",
+   "name": "リフォーム",
+   "sub": "増改築・外壁",
+   "img": "cat-reform",
+   "path": "/reform/"
+  },
+  {
+   "id": "realestate",
+   "name": "不動産・土地",
+   "sub": "売却・購入・査定",
+   "img": "cat-realestate",
+   "path": "/realestate/"
+  },
+  {
+   "id": "money",
+   "name": "お金・補助金",
+   "sub": "費用・ローン",
+   "img": "cat-money",
+   "path": "/money/"
+  },
+  {
+   "id": "life",
+   "name": "暮らしの知識",
+   "sub": "メンテナンス・DIY",
+   "img": "cat-life",
+   "path": "/life/"
+  }
+ ],
+ "catName": {
+  "garden": "庭づくり",
+  "turf": "人工芝",
+  "exterior": "外構・エクステリア",
+  "carport": "駐車場・カーポート",
+  "deck": "ウッドデッキ",
+  "equipment": "住宅設備",
+  "reform": "リフォーム",
+  "realestate": "不動産・土地",
+  "money": "お金・補助金",
+  "life": "暮らしの知識",
+  "col-basics": "外構の基礎知識",
+  "col-garden": "庭・ガーデニング",
+  "col-diy": "DIY・自分でできる施工",
+  "col-products": "商品・素材・設備",
+  "col-cost": "費用・相場",
+  "col-trouble": "トラブル・メンテナンス",
+  "col-equipment": "住宅設備",
+  "col-reform": "リフォーム",
+  "col-realestate": "不動産・土地",
+  "col-money": "お金・補助金",
+  "col-lifestyle": "くらしの知識"
+ },
+ "articles": [
+  {
+   "id": "garden-guide",
+   "cat": "garden",
+   "title": "おしゃれな庭のつくり方｜実例と費用の完全ガイド",
+   "desc": "理想の庭を叶えるためのポイント、費用相場、失敗しない業者の選び方までわかりやすく解説。",
+   "img": "feat-garden",
+   "date": "2026.10.25",
+   "path": "/garden/garden-guide/",
+   "tags": [
+    "庭づくり",
+    "費用",
+    "実例"
+   ]
+  },
+  {
+   "id": "exterior-flow",
+   "cat": "exterior",
+   "title": "後悔しない外構工事の進め方｜費用と注意点を徹底解説",
+   "desc": "相談から完成までの流れと、見積もりで確認したい項目を整理。",
+   "img": "feat-exterior",
+   "date": "2026.10.22",
+   "path": "/exterior/exterior-flow/",
+   "tags": [
+    "外構",
+    "費用",
+    "業者選び"
+   ]
+  },
+  {
+   "id": "land-check",
+   "cat": "realestate",
+   "title": "土地を購入する前に確認すべき15のポイント！現地調査で見るべき項目",
+   "desc": "土地の購入前には、現地調査を含めた確認が欠かせません。チェックすべき15のポイントを解説します。",
+   "img": "feat-land",
+   "date": "2026.10.20",
+   "path": "/column/tochi-kounyu-chuiten/",
+   "tags": [
+    "土地",
+    "チェックリスト"
+   ]
+  },
+  {
+   "id": "renovation",
+   "cat": "reform",
+   "title": "中古住宅を購入してリフォームする費用はいくら？購入費用と工事費の考え方",
+   "desc": "中古住宅の購入とリフォームをセットで検討する場合、予算配分の考え方が重要です。費用の考え方を解説します。",
+   "img": "cat-life",
+   "date": "2026.10.18",
+   "path": "/column/chuuko-jutaku-reform-hiyou/",
+   "tags": [
+    "リフォーム",
+    "実例"
+   ]
+  },
+  {
+   "id": "turf-cost",
+   "cat": "turf",
+   "title": "人工芝の施工費用と価格相場",
+   "desc": "人工芝の施工費用は、材料費だけでなく下地処理費も含めて考える必要があります。費用の内訳を解説します。",
+   "img": "thumb-turf",
+   "date": "2026.10.26",
+   "path": "/column/jinkoshiba-sekou-hiyou-souba/",
+   "tags": [
+    "人工芝",
+    "費用",
+    "DIY"
+   ]
+  },
+  {
+   "id": "fence-guide",
+   "cat": "exterior",
+   "title": "失敗しないフェンスの選び方｜種類・費用・おしゃれな施工例まで徹底解説",
+   "desc": "目隠し・メッシュ・ルーバーなど種類別の特徴と、目的別の選び方。",
+   "img": "article-fence-hero",
+   "date": "2026.10.20",
+   "updated": "2026.10.28",
+   "path": "/exterior/fence/fence-guide/",
+   "tags": [
+    "フェンス",
+    "目隠しフェンス",
+    "フェンス 費用",
+    "境界",
+    "DIY"
+   ]
+  },
+  {
+   "id": "fence-types",
+   "cat": "exterior",
+   "title": "フェンスの種類と特徴を徹底比較",
+   "desc": "フェンスには素材やデザインによってさまざまな種類があります。代表的な種類と特徴を比較して解説します。",
+   "img": "thumb-fence",
+   "date": "2026.10.24",
+   "path": "/column/fence-shurui-hikaku/",
+   "tags": [
+    "フェンス",
+    "目隠し"
+   ]
+  },
+  {
+   "id": "carport-price",
+   "cat": "carport",
+   "title": "カーポートの設置費用と価格相場",
+   "desc": "カーポートの設置費用は、商品代だけでなく基礎工事費や施工費も含めて考える必要があります。内訳を解説します。",
+   "img": "thumb-carport",
+   "date": "2026.10.23",
+   "path": "/column/carport-setti-hiyou-souba/",
+   "tags": [
+    "カーポート",
+    "比較"
+   ]
+  },
+  {
+   "id": "land-value",
+   "cat": "realestate",
+   "title": "土地の査定方法と相場の調べ方",
+   "desc": "公的な価格指標の見方と、査定前に準備すること。",
+   "img": "thumb-land",
+   "date": "2026.10.21",
+   "path": "/realestate/land-value/",
+   "tags": [
+    "土地",
+    "査定"
+   ]
+  },
+  {
+   "id": "wall-paint",
+   "cat": "reform",
+   "title": "外壁塗装の費用相場と塗り替え時期は？見積もりで確認すべきポイント",
+   "desc": "外壁塗装の費用は、塗料の種類や外壁の状態によって変わります。塗り替え時期の目安と費用の考え方を解説します。",
+   "img": "thumb-paint",
+   "date": "2026.10.20",
+   "path": "/column/gaiheki-tosou-hiyou-souba/",
+   "tags": [
+    "外壁",
+    "リフォーム"
+   ]
+  },
+  {
+   "id": "subsidy",
+   "cat": "money",
+   "title": "外構工事に使える補助金・助成金の調べ方",
+   "desc": "自治体の制度の探し方と、申請で注意したいこと。",
+   "img": "thumb-subsidy",
+   "date": "2026.10.18",
+   "path": "/money/subsidy/",
+   "tags": [
+    "補助金",
+    "外構"
+   ]
+  },
+  {
+   "id": "garden-care",
+   "cat": "life",
+   "title": "庭の手入れは季節ごとに何をする？春夏秋冬の年間メンテナンスカレンダー",
+   "desc": "庭の手入れは季節によってやるべき作業が異なります。春夏秋冬の年間スケジュールを解説します。",
+   "img": "thumb-garden-care",
+   "date": "2026.10.17",
+   "path": "/column/niwa-teire-nenkan-calendar/",
+   "tags": [
+    "メンテナンス",
+    "庭"
+   ]
+  },
+  {
+   "id": "delivery-box",
+   "cat": "equipment",
+   "title": "戸建て用宅配ボックスの選び方！設置場所・サイズ・防犯面の注意点",
+   "desc": "戸建てに宅配ボックスを設置する際の選び方を解説。設置場所・サイズ・防犯面のポイントを紹介します。",
+   "img": "thumb-deliverybox",
+   "date": "2026.10.16",
+   "path": "/column/takuhaibox-kodate-erabikata/",
+   "tags": [
+    "宅配ボックス",
+    "住宅設備"
+   ]
+  },
+  {
+   "id": "deck-ideas",
+   "cat": "deck",
+   "title": "おしゃれなウッドデッキの実例10選",
+   "desc": "天然木・人工木の違いと、使い方別のデザイン実例。",
+   "img": "cat-deck",
+   "date": "2026.10.12",
+   "path": "/exterior/deck/deck-ideas/",
+   "tags": [
+    "ウッドデッキ",
+    "実例"
+   ]
+  },
+  {
+   "id": "blind-fence",
+   "cat": "exterior",
+   "title": "目隠しフェンスの選び方",
+   "desc": "目隠しフェンスを選ぶ際は、高さと素材のバランスが重要です。選び方のポイントを解説します。",
+   "img": "fence-privacy",
+   "date": "2026.10.10",
+   "path": "/column/mekakushi-fence-erabikata/",
+   "tags": [
+    "フェンス",
+    "目隠し"
+   ]
+  },
+  {
+   "id": "fence-cost",
+   "cat": "exterior",
+   "title": "フェンスの設置費用はいくら？",
+   "desc": "フェンスの設置費用は、素材や長さ、高さによって変動します。費用が決まる仕組みを解説します。",
+   "img": "fence-wind",
+   "date": "2026.10.08",
+   "path": "/column/fence-setti-hiyou-ikkura/",
+   "tags": [
+    "フェンス",
+    "費用"
+   ]
+  },
+  {
+   "id": "fence-diy",
+   "cat": "exterior",
+   "title": "DIYで目隠しフェンスを設置する方法",
+   "desc": "目隠しフェンスはDIYでも設置可能ですが、支柱の固定が強度を左右します。設置の手順と注意点を解説します。",
+   "img": "fence-security",
+   "date": "2026.10.05",
+   "path": "/column/diy-mekakushi-fence-setti/",
+   "tags": [
+    "フェンス",
+    "DIY"
+   ]
+  },
+  {
+   "id": "exterior-design",
+   "cat": "exterior",
+   "title": "外構デザインをおしゃれにするポイント",
+   "desc": "外構をおしゃれに見せるには、色・素材・全体の統一感がポイントになります。デザインの質を高める具体的な工夫を解説します。",
+   "img": "hero-02",
+   "date": "2026.10.02",
+   "path": "/column/gaikou-design-oshare-point/",
+   "tags": [
+    "外構",
+    "実例"
+   ]
+  },
+  {
+   "id": "trap-isshiki",
+   "cat": "exterior",
+   "title": "見積もりの「一式」に要注意｜内訳の読み方",
+   "desc": "一式表記の項目は、追加費用の原因になりがち。",
+   "img": "fence-design",
+   "date": "2026.10.27",
+   "path": "/exterior/trap/isshiki/",
+   "tags": [
+    "外構",
+    "見積もり"
+   ]
+  },
+  {
+   "id": "trap-boundary",
+   "cat": "exterior",
+   "title": "境界ギリギリのフェンスでお隣と気まずくならないために",
+   "desc": "設置位置と事前の声かけで防げるトラブル。",
+   "img": "fence-privacy",
+   "date": "2026.10.19",
+   "path": "/exterior/trap/boundary/",
+   "tags": [
+    "フェンス",
+    "境界"
+   ]
+  },
+  {
+   "id": "trap-hot-turf",
+   "cat": "turf",
+   "title": "安い人工芝が真夏に熱くなる？素材と対策",
+   "desc": "表面温度が上がる理由と、選び方・使い方の工夫。",
+   "img": "thumb-turf",
+   "date": "2026.10.15",
+   "path": "/garden/turf/hot/",
+   "tags": [
+    "人工芝",
+    "夏"
+   ]
+  },
+  {
+   "id": "trap-drain",
+   "cat": "exterior",
+   "title": "水はけを考えない土間コンクリートで庭が池に",
+   "desc": "勾配と排水計画の基本。",
+   "img": "cat-carport",
+   "date": "2026.10.11",
+   "path": "/exterior/trap/drain/",
+   "tags": [
+    "駐車場",
+    "排水"
+   ]
+  },
+  {
+   "id": "trap-subsidy",
+   "cat": "money",
+   "title": "補助金は「着工前の申請」が条件のことが多い",
+   "desc": "申請のタイミングで使えなくなる前に確認すること。",
+   "img": "thumb-subsidy",
+   "date": "2026.10.09",
+   "path": "/money/trap/subsidy-timing/",
+   "tags": [
+    "補助金"
+   ]
+  },
+  {
+   "id": "col-grow",
+   "cat": "turf",
+   "title": "「芝、伸びてきました？」と聞かれる率、意外と高い説",
+   "desc": "人工芝職人が語る現場の本音 Vol.1",
+   "img": "cat-garden",
+   "date": "2026.10.24",
+   "path": "/column/shiba/01/",
+   "tags": [
+    "コラム",
+    "人工芝"
+   ]
+  },
+  {
+   "id": "col-gallery",
+   "cat": "turf",
+   "title": "職人が一番緊張するのは、雨より“ご近所の見学ギャラリー”",
+   "desc": "人工芝職人が語る現場の本音 Vol.2",
+   "img": "thumb-garden-care",
+   "date": "2026.10.17",
+   "path": "/column/shiba/02/",
+   "tags": [
+    "コラム"
+   ]
+  },
+  {
+   "id": "col-summer",
+   "cat": "turf",
+   "title": "真夏の施工で学んだこと。人工芝の上で目玉焼きは焼けない（焼かないで）",
+   "desc": "人工芝職人が語る現場の本音 Vol.3",
+   "img": "hero-03",
+   "date": "2026.10.10",
+   "path": "/column/shiba/03/",
+   "tags": [
+    "コラム",
+    "夏"
+   ]
+  },
+  {
+   "id": "col-home",
+   "cat": "turf",
+   "title": "職人の自宅の庭は人工芝なのか問題",
+   "desc": "人工芝職人が語る現場の本音 Vol.4",
+   "img": "hero-01",
+   "date": "2026.10.03",
+   "path": "/column/shiba/04/",
+   "tags": [
+    "コラム"
+   ]
+  },
+  {
+   "id": "winter-outdoor",
+   "cat": "life",
+   "title": "冬の庭アウトドアに欠かせないグッズ10選",
+   "desc": "焚き火台・ポータブル電源・デッキで使える防寒アイテム。",
+   "img": "season-winter",
+   "date": "2026.10.28",
+   "path": "/feature/winter-outdoor/",
+   "tags": [
+    "アウトドア",
+    "冬"
+   ]
+  },
+  {
+   "id": "year-end",
+   "cat": "life",
+   "title": "年末の大掃除、庭はここだけやればOK",
+   "desc": "15分で終わる外まわり掃除チェックリスト。",
+   "img": "thumb-garden-care",
+   "date": "2026.10.26",
+   "path": "/feature/year-end-cleaning/",
+   "tags": [
+    "掃除",
+    "メンテナンス"
+   ]
+  },
+  {
+   "id": "winter-turf",
+   "cat": "turf",
+   "title": "冬の人工芝メンテナンス｜霜・落ち葉・雪の日の対策",
+   "desc": "寒い季節に気をつけたいポイント。",
+   "img": "cat-garden",
+   "date": "2026.10.22",
+   "path": "/garden/turf/winter/",
+   "tags": [
+    "人工芝",
+    "冬"
+   ]
+  }
+ ],
+ "features": [
+  "garden-guide",
+  "exterior-flow",
+  "land-check",
+  "renovation"
+ ],
+ "latest": [
+  "turf-cost",
+  "fence-types",
+  "carport-price",
+  "land-value",
+  "wall-paint",
+  "subsidy",
+  "garden-care",
+  "delivery-box"
+ ],
+ "ranking": {
+  "source": "アクセス解析の集計（サンプルデータ）",
+  "periods": [
+   {
+    "id": "week",
+    "name": "週間",
+    "items": [
+     "turf-cost",
+     "exterior-design",
+     "carport-price",
+     "exterior-flow",
+     "land-check"
+    ]
+   },
+   {
+    "id": "month",
+    "name": "月間",
+    "items": [
+     "fence-guide",
+     "turf-cost",
+     "deck-ideas",
+     "carport-price",
+     "land-value"
+    ]
+   },
+   {
+    "id": "year",
+    "name": "年間",
+    "items": [
+     "turf-cost",
+     "fence-guide",
+     "garden-guide",
+     "subsidy",
+     "wall-paint"
+    ]
+   }
+  ]
+ },
+ "editorsPick": [
+  "garden-guide",
+  "fence-guide",
+  "turf-cost",
+  "subsidy"
+ ],
+ "heroSlides": [
+  {
+   "img": "hero-01",
+   "alt": "夕暮れのウッドデッキと人工芝の庭",
+   "article": "garden-guide"
+  },
+  {
+   "img": "hero-02",
+   "alt": "植栽と照明に彩られた住宅のエントランス",
+   "article": "exterior-flow"
+  },
+  {
+   "img": "hero-03",
+   "alt": "夕暮れに照明が灯るモダンな住宅とビルトインカーポート",
+   "article": "carport-price"
+  },
+  {
+   "img": "hero-04",
+   "alt": "黒い横格子フェンスと人工芝の庭",
+   "article": "fence-guide"
+  }
+ ],
+ "purposes": [
+  {
+   "id": "cost",
+   "icon": "coins",
+   "name": "費用相場を知りたい",
+   "sub": "工事・商品の価格目安",
+   "path": "/purpose/cost/"
+  },
+  {
+   "id": "design",
+   "icon": "image",
+   "name": "デザインの実例を見たい",
+   "sub": "施工例・コーディネート",
+   "path": "/purpose/examples/"
+  },
+  {
+   "id": "items",
+   "icon": "cart",
+   "name": "おすすめ商品を探したい",
+   "sub": "DIY用品・資材の比較",
+   "path": "/purpose/products/"
+  },
+  {
+   "id": "pro",
+   "icon": "user",
+   "name": "業者を探したい",
+   "sub": "施工会社の比較・選び方",
+   "path": "/purpose/contractors/"
+  },
+  {
+   "id": "subsidy",
+   "icon": "doc",
+   "name": "補助金を調べたい",
+   "sub": "自治体の制度・申請",
+   "path": "/purpose/subsidy/"
+  }
+ ],
+ "turfGuide": {
+  "title": "人工芝の「知りたい」が、<br>ぜんぶわかる。",
+  "path": "/garden/turf/",
+  "text": "芝丈や密度の違いから、下地づくり、DIYと業者施工の費用比較、ペットや子どもとの使い方まで。テーマ別に体系立てて解説しています。",
+  "chapters": [
+   {
+    "no": "01",
+    "name": "基礎知識・種類",
+    "desc": "パイル形状・素材・裏面構造",
+    "path": "/garden/turf/basics/"
+   },
+   {
+    "no": "02",
+    "name": "性能・品質",
+    "desc": "水はけ・熱・肌触り・耐久性",
+    "path": "/garden/turf/quality/"
+   },
+   {
+    "no": "03",
+    "name": "下地づくり・施工方法",
+    "desc": "整地・転圧・防草シート",
+    "path": "/garden/turf/install/"
+   },
+   {
+    "no": "04",
+    "name": "DIY・必要な道具",
+    "desc": "道具リストと手順",
+    "path": "/column/jinkoshiba-diy-shikikata/"
+   },
+   {
+    "no": "05",
+    "name": "費用・業者施工",
+    "desc": "面積別の費用の考え方",
+    "path": "/column/jinkoshiba-sekou-hiyou-souba/"
+   },
+   {
+    "no": "06",
+    "name": "用途別の選び方",
+    "desc": "犬・子ども・ベランダ・庭",
+    "path": "/garden/turf/use/"
+   },
+   {
+    "no": "07",
+    "name": "メンテナンス・トラブル",
+    "desc": "掃除・補修・におい対策",
+    "path": "/garden/turf/care/"
+   },
+   {
+    "no": "08",
+    "name": "商品・メーカー比較",
+    "desc": "比較基準と選び方",
+    "path": "/column/jinkoshiba-shurui-erabikata/"
+   },
+   {
+    "no": "09",
+    "name": "施工会社の選び方",
+    "desc": "見積もりで確認すること",
+    "path": "/garden/turf/contractors/"
+   }
+  ]
+ },
+ "fenceSeries": {
+  "name": "フェンス完全ガイド",
+  "path": "/exterior/fence/",
+  "items": [
+   {
+    "id": "fence-guide",
+    "name": "フェンスの選び方（総合ガイド）"
+   },
+   {
+    "id": "fence-types",
+    "name": "フェンスの種類と特徴"
+   },
+   {
+    "id": "blind-fence",
+    "name": "目隠しフェンスのメリット・デメリット"
+   },
+   {
+    "id": "fence-cost",
+    "name": "フェンスの費用相場と工事の流れ"
+   },
+   {
+    "id": "fence-diy",
+    "name": "フェンスはDIYできる？"
+   },
+   {
+    "id": null,
+    "name": "フェンスの高さの決め方",
+    "soon": true
+   },
+   {
+    "id": null,
+    "name": "境界フェンスとお隣トラブルの防ぎ方",
+    "soon": true
+   }
+  ]
+ },
+ "footer": {
+  "about": "SOTORINO（ソトリノ）は、庭・外構・住まい・土地まで、家まわりの「知りたい」を集めた情報メディアです。費用や選び方を、根拠と条件を添えてわかりやすくお届けします。",
+  "guides": [
+   {
+    "name": "外構・庭づくりコラム",
+    "path": "/column/"
+   },
+   {
+    "name": "人工芝ガイド",
+    "path": "/garden/turf/"
+   },
+   {
+    "name": "フェンス完全ガイド",
+    "path": "/exterior/fence/"
+   },
+   {
+    "name": "はじめての外構工事",
+    "path": "/exterior/beginners/"
+   },
+   {
+    "name": "補助金の調べ方",
+    "path": "/money/subsidy/"
+   },
+   {
+    "name": "用語集",
+    "path": "/glossary/"
+   }
+  ],
+  "site": [
+   {
+    "name": "運営者情報",
+    "path": "/about/"
+   },
+   {
+    "name": "編集ポリシー",
+    "path": "/editorial-policy/"
+   },
+   {
+    "name": "お問い合わせ",
+    "path": "/contact/"
+   },
+   {
+    "name": "プライバシーポリシー",
+    "path": "/privacy/"
+   },
+   {
+    "name": "広告・アフィリエイトについて",
+    "path": "/ads-policy/"
+   },
+   {
+    "name": "免責事項",
+    "path": "/disclaimer/"
+   }
+  ]
+ },
+ "fenceArticle": {
+  "id": "fence-guide",
+  "lead": "目隠し・メッシュ・ルーバーなどフェンスの種類と特徴、費用の考え方、目的別の選び方をわかりやすく解説。おしゃれな施工例や、失敗しないためのチェックリストも紹介します。",
+  "heroAlt": "木目調の横格子フェンスと植栽のある住宅の外構",
+  "summary": [
+   "フェンスの主な種類とそれぞれの特徴",
+   "目的別（目隠し・防犯・デザイン）の選び方",
+   "費用の内訳と、工事にかかる期間の目安",
+   "おしゃれな施工例と最近のトレンド",
+   "フェンス選びで失敗しないためのポイント"
+  ],
+  "blocks": [
+   {
+    "type": "h2",
+    "id": "role",
+    "text": "1. フェンスの役割と選ぶ前に知っておきたいこと"
+   },
+   {
+    "type": "p",
+    "html": "フェンスは、敷地の境界を示すだけでなく、<strong>プライバシーの確保や防犯、街並みとの調和</strong>など、さまざまな役割を持つ外構アイテムです。まずは「何のために設置するのか」を整理し、ライフスタイルや家のデザインに合ったフェンスを選ぶことが大切です。"
+   },
+   {
+    "type": "iconFeatures",
+    "items": [
+     {
+      "img": "fence-privacy",
+      "icon": "eye",
+      "title": "プライバシーの確保",
+      "desc": "外からの視線を遮り、快適な暮らしを実現。",
+      "alt": "木目調の目隠しフェンス"
+     },
+     {
+      "img": "fence-security",
+      "icon": "lock",
+      "title": "防犯性の向上",
+      "desc": "侵入を防ぎ、家族の安全を守る。",
+      "alt": "スチール製のフェンスと門扉"
+     },
+     {
+      "img": "fence-design",
+      "icon": "house",
+      "title": "デザイン性の向上",
+      "desc": "住まいの印象を高め、おしゃれな外観に。",
+      "alt": "植栽と調和したフェンスのある住宅"
+     },
+     {
+      "img": "fence-wind",
+      "icon": "wind",
+      "title": "風や騒音の軽減",
+      "desc": "風よけや騒音対策にも効果的。",
+      "alt": "隙間の少ない横板フェンス"
+     }
+    ]
+   },
+   {
+    "type": "related",
+    "article": "blind-fence"
+   },
+   {
+    "type": "h2",
+    "id": "types",
+    "text": "2. フェンスの種類と特徴"
+   },
+   {
+    "type": "p",
+    "html": "フェンスにはさまざまな種類があり、それぞれデザインや機能、価格が異なります。ここでは代表的なフェンスの種類と特徴を紹介します。気になる種類は、各記事でくわしく比較しています。"
+   },
+   {
+    "type": "types",
+    "items": [
+     {
+      "img": "fencetype-blind",
+      "name": "目隠しフェンス",
+      "desc": "プライバシーを重視したい方に。住宅街で人気の定番タイプ。",
+      "path": "/column/mekakushi-fence-erabikata/"
+     },
+     {
+      "img": "fencetype-mesh",
+      "name": "メッシュフェンス",
+      "desc": "コストを抑えつつ開放感のあるフェンス。境界用におすすめ。",
+      "path": "/column/fence-shurui-hikaku/"
+     },
+     {
+      "img": "fencetype-louver",
+      "name": "ルーバーフェンス",
+      "desc": "視線を遮りながら風を通す。デザイン性と機能性を両立。",
+      "path": "/column/fence-shurui-hikaku/"
+     },
+     {
+      "img": "fencetype-lattice",
+      "name": "縦格子フェンス",
+      "desc": "スタイリッシュで和モダンな印象。和風の住宅にもよく合う。",
+      "path": "/column/fence-shurui-hikaku/"
+     },
+     {
+      "img": "fencetype-bamboo",
+      "name": "竹垣風フェンス",
+      "desc": "和の雰囲気を演出できる。庭や和風住宅におすすめ。",
+      "path": "/column/fence-shurui-hikaku/"
+     },
+     {
+      "img": "fencetype-cast",
+      "name": "鋳物フェンス",
+      "desc": "ヨーロピアンなデザインで高級感。洋風住宅やおしゃれな外構に。",
+      "path": "/column/fence-shurui-hikaku/"
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "purpose",
+    "text": "3. 目的別のおすすめフェンス"
+   },
+   {
+    "type": "p",
+    "html": "同じ「目隠し」でも、リビング前の視線対策と、道路沿いの境界とでは適したフェンスが変わります。目的ごとの向き・不向きを比較しました。"
+   },
+   {
+    "type": "table",
+    "caption": "目的別のフェンス比較",
+    "head": [
+     "種類",
+     "目隠し",
+     "通風・採光",
+     "防犯",
+     "費用感",
+     "向いている場所"
+    ],
+    "rows": [
+     {
+      "cells": [
+       "目隠しフェンス",
+       "◎",
+       "△ 隙間が少ない",
+       "○",
+       "中〜高",
+       "リビング前・浴室まわり"
+      ],
+      "pick": true
+     },
+     {
+      "cells": [
+       "ルーバーフェンス",
+       "○",
+       "◎ 羽板の角度で調整",
+       "○",
+       "高",
+       "庭・テラスの囲い"
+      ]
+     },
+     {
+      "cells": [
+       "メッシュフェンス",
+       "× 視線は通る",
+       "◎",
+       "△",
+       "低",
+       "隣地との境界・裏手"
+      ]
+     },
+     {
+      "cells": [
+       "縦格子フェンス",
+       "○ 角度により変化",
+       "○",
+       "○",
+       "中",
+       "道路沿い・アプローチ"
+      ]
+     },
+     {
+      "cells": [
+       "鋳物フェンス",
+       "×",
+       "◎",
+       "○ 高さ次第",
+       "高",
+       "門まわり・装飾"
+      ]
+     }
+    ],
+    "note": "◎：とても向いている　○：向いている　△：条件による　×：向いていない<br>※ 評価は編集部の比較基準による目安です。製品・高さ・設置条件によって異なります。"
+   },
+   {
+    "type": "note",
+    "kind": "point",
+    "title": "高さは「誰の、どこからの視線か」で決める",
+    "items": [
+     "道路からの視線：地面から <strong>1.6〜1.8m前後</strong> が目安（敷地の高低差で変わります）",
+     "室内に座ったときの視線：窓の位置と床の高さを基準に測る",
+     "高くしすぎると圧迫感・日当たり・風圧の負担が増える"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "cost",
+    "text": "4. 費用相場と工事の流れ"
+   },
+   {
+    "type": "p",
+    "html": "フェンスの費用は、<strong>本体価格・基礎（ブロック）工事・施工費</strong>の合計で決まります。同じ長さでも、既存ブロックを使えるか、新たに基礎をつくるかで総額が大きく変わります。<a href=\"#/column/fence-setti-hiyou-ikkura/\">費用の内訳と見積もりの見方</a>もあわせて確認してください。"
+   },
+   {
+    "type": "stats",
+    "items": [
+     {
+      "label": "本体価格の目安（1mあたり）",
+      "value": "◯〜◯",
+      "unit": "万円",
+      "note": "素材・高さによって変動"
+     },
+     {
+      "label": "工期の目安（10m程度）",
+      "value": "◯〜◯",
+      "unit": "日",
+      "note": "基礎工事の有無で変動"
+     },
+     {
+      "label": "見積もりで確認する項目",
+      "value": "6",
+      "unit": "項目",
+      "note": "本体・基礎・柱・処分費など"
+     }
+    ]
+   },
+   {
+    "type": "note",
+    "kind": "info",
+    "title": "数値の掲載ルール",
+    "html": "費用・耐用年数などの数値は、メーカー公表値や編集部の調査など<strong>出典と確認日</strong>を併記して掲載します（このデザインでは「◯」で仮置きしています）。"
+   },
+   {
+    "type": "h3",
+    "id": "cost-flow",
+    "text": "依頼から完成までの流れ"
+   },
+   {
+    "type": "steps",
+    "items": [
+     {
+      "title": "現地調査・ヒアリング",
+      "time": "1〜2週間",
+      "desc": "境界の位置、既存ブロックの状態、高さの希望を確認します。"
+     },
+     {
+      "title": "プラン提案・見積もり",
+      "time": "1〜2週間",
+      "desc": "複数案を比較。本体・基礎・処分費が分かれているか確認しましょう。"
+     },
+     {
+      "title": "契約・近隣へのあいさつ",
+      "desc": "工事日程と車両の出入りを近隣に伝えておくとトラブルを防げます。"
+     },
+     {
+      "title": "施工・完成確認",
+      "time": "数日〜",
+      "desc": "柱のぐらつき、仕上がりの水平、扉の開閉を一緒に確認します。"
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "examples",
+    "text": "5. おしゃれな施工例"
+   },
+   {
+    "type": "p",
+    "html": "素材の色を建物のサッシや外壁に合わせると、まとまりのある外観になります。植栽と組み合わせて「隠しすぎない」のがおしゃれに見せるコツです。"
+   },
+   {
+    "type": "gallery",
+    "items": [
+     {
+      "img": "thumb-fence",
+      "title": "黒の横格子フェンスで、人工芝の庭をすっきり囲う",
+      "spec": [
+       "目隠しフェンス",
+       "高さ1.8m",
+       "施工例（提供：施工会社名）"
+      ],
+      "alt": "黒い横格子フェンスと人工芝の庭"
+     },
+     {
+      "img": "fence-design",
+      "title": "ブロックと植栽を組み合わせた開放的な境界",
+      "spec": [
+       "縦格子＋植栽",
+       "高さ1.2m",
+       "施工例（提供：施工会社名）"
+      ],
+      "alt": "低めのフェンスと植栽の外構"
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "tips",
+    "text": "6. フェンス選びで失敗しないポイント"
+   },
+   {
+    "type": "proscons",
+    "proTitle": "目隠しフェンスを選ぶメリット",
+    "conTitle": "注意したいデメリット",
+    "pros": [
+     "視線を気にせず庭やリビングで過ごせる",
+     "外観の印象を大きく変えられる",
+     "防犯・境界の意思表示になる"
+    ],
+    "cons": [
+     "高さによっては圧迫感が出る",
+     "風を受けやすく、基礎の強度が必要",
+     "日当たり・風通しが悪くなる場合がある"
+    ]
+   },
+   {
+    "type": "checklist",
+    "title": "発注前のチェックリスト",
+    "items": [
+     {
+      "text": "境界線の位置を確認した",
+      "sub": "境界標・測量図で確認。お隣との共有か単独設置かも決めておく"
+     },
+     {
+      "text": "必要な高さを、実際の視線で測った"
+     },
+     {
+      "text": "既存ブロックの高さ・状態を確認した",
+      "sub": "古いブロックへの後付けは強度の確認が必要です"
+     },
+     {
+      "text": "風の強さ・積雪など地域の条件を確認した"
+     },
+     {
+      "text": "見積もりの内訳（本体・基礎・施工・処分）を比較した"
+     }
+    ]
+   },
+   {
+    "type": "note",
+    "kind": "caution",
+    "title": "ブロック塀への後付けは要注意",
+    "html": "既存のブロック塀に高いフェンスを後付けすると、風の力で塀ごと倒れるおそれがあります。<a href=\"#/exterior/block-wall-safety/\">ブロック塀の安全点検</a>を行い、必要に応じて施工会社に強度を確認してもらいましょう。"
+   },
+   {
+    "type": "h2",
+    "id": "faq",
+    "text": "7. よくある質問"
+   },
+   {
+    "type": "faq",
+    "items": [
+     {
+      "q": "フェンスの高さに法律上の決まりはありますか？",
+      "a": "フェンス単体の高さに一律の上限はありませんが、ブロック塀と組み合わせる場合は建築基準法の規定や自治体の条例が関係します。地域の条件は自治体や施工会社に確認してください。"
+     },
+     {
+      "q": "お隣との境界にフェンスを立てるときの注意点は？",
+      "a": "境界線の確認と、どちらの敷地に設置するかの合意が大切です。<a class=\"st-a\" href=\"#/exterior/fence/boundary/\">境界フェンスとトラブルの防ぎ方</a>でくわしく解説しています。"
+     },
+     {
+      "q": "DIYで設置することはできますか？",
+      "a": "低めのメッシュフェンスなどはDIYも可能ですが、目隠しフェンスのように風を受ける製品は基礎の強度が重要です。<a class=\"st-a\" href=\"#/column/diy-mekakushi-fence-setti/\">DIYの向き不向き</a>を確認しましょう。"
+     }
+    ]
+   },
+   {
+    "type": "wrap",
+    "items": [
+     "まずは「目隠し・防犯・デザイン」のどれを優先するかを決める",
+     "高さは実際の視線で測り、圧迫感と風の負担も考える",
+     "費用は本体だけでなく、基礎・施工・処分費まで含めて比較する",
+     "ブロックへの後付けや境界まわりは、プロに確認すると安心"
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "next",
+    "text": "次に読みたい記事",
+    "toc": false
+   },
+   {
+    "type": "next"
+   },
+   {
+    "type": "products",
+    "items": [
+     {
+      "img": "fencetype-mesh",
+      "name": "スチールメッシュフェンス（商品名）",
+      "forWhom": "境界をDIYで区切りたい方に。軽量で扱いやすい。",
+      "spec": [
+       [
+        "高さ",
+        "800〜1200mm"
+       ],
+       [
+        "素材",
+        "スチール"
+       ],
+       [
+        "施工",
+        "独立基礎・ブロック"
+       ]
+      ],
+      "price": "参考価格：◯◯円〜",
+      "shops": [
+       {
+        "name": "Amazon"
+       },
+       {
+        "name": "楽天市場"
+       }
+      ]
+     },
+     {
+      "img": "fencetype-blind",
+      "name": "アルミ木目調 目隠しフェンス（商品名）",
+      "forWhom": "庭の一部をおしゃれに目隠ししたい方に。",
+      "spec": [
+       [
+        "高さ",
+        "1200〜1800mm"
+       ],
+       [
+        "素材",
+        "アルミ形材"
+       ],
+       [
+        "施工",
+        "ブロック推奨"
+       ]
+      ],
+      "price": "参考価格：◯◯円〜",
+      "shops": [
+       {
+        "name": "Amazon"
+       },
+       {
+        "name": "楽天市場"
+       }
+      ]
+     },
+     {
+      "img": "fencetype-louver",
+      "name": "ルーバーパネル（商品名）",
+      "forWhom": "ベランダやテラスの一部を囲いたい方に。",
+      "spec": [
+       [
+        "高さ",
+        "900〜1800mm"
+       ],
+       [
+        "素材",
+        "樹脂・アルミ"
+       ],
+       [
+        "施工",
+        "置き型可"
+       ]
+      ],
+      "price": "参考価格：◯◯円〜",
+      "shops": [
+       {
+        "name": "Amazon"
+       },
+       {
+        "name": "楽天市場"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "type": "contractor"
+   }
+  ]
+ },
+ "campaigns": [
+  {
+   "tag": "CAMPAIGN",
+   "title": "秋のプレゼントキャンペーン",
+   "text": "アンケートに答えて、ガーデングッズが当たる",
+   "until": "2026.11.30まで",
+   "img": "season-camp",
+   "path": "/campaign/autumn-2026/"
+  },
+  {
+   "tag": "SEASONAL",
+   "title": "冬の庭アウトドアに欠かせないグッズ10選",
+   "text": "焚き火台・ポータブル電源・防寒アイテム",
+   "img": "season-winter",
+   "path": "/feature/winter-outdoor/"
+  },
+  {
+   "tag": "SEASONAL",
+   "title": "年末の大掃除、庭はここだけやればOK",
+   "text": "15分で終わる外まわり掃除チェックリスト",
+   "img": "hero-02",
+   "path": "/feature/year-end-cleaning/"
+  }
+ ],
+ "campaignNews": [
+  {
+   "badge": "開催中",
+   "title": "秋のプレゼントキャンペーン",
+   "meta": "2026.11.30まで",
+   "path": "/campaign/autumn-2026/"
+  },
+  {
+   "badge": "PR",
+   "title": "人工芝サンプル無料送付キャンペーン",
+   "meta": "数量限定",
+   "path": "/campaign/turf-sample/",
+   "pr": true
+  },
+  {
+   "badge": "特集",
+   "title": "冬の庭アウトドアグッズ10選",
+   "meta": "2026.10.28公開",
+   "path": "/feature/winter-outdoor/"
+  }
+ ],
+ "traps": [
+  "trap-isshiki",
+  "trap-boundary",
+  "trap-hot-turf",
+  "trap-drain",
+  "trap-subsidy"
+ ],
+ "trapNotes": [
+  "内訳のない「一式」は、あとから追加費用が出やすい。",
+  "設置位置と声かけ一つで、ご近所トラブルは防げる。",
+  "真夏の表面温度は想像以上。素材と色で差が出る。",
+  "勾配と排水を決めずに打つと、雨のたびに水たまり。",
+  "着工してから申請しても、対象外になる制度が多い。"
+ ],
+ "columns": [
+  {
+   "id": "col-grow",
+   "quote": "「芝、伸びてきました？」\nって、けっこう聞かれます。"
+  },
+  {
+   "id": "col-gallery",
+   "quote": "雨より緊張するのは、\nご近所の見学ギャラリー。"
+  },
+  {
+   "id": "col-summer",
+   "quote": "目玉焼きは焼けません。\n焼かないでください。"
+  },
+  {
+   "id": "col-home",
+   "quote": "うちの庭？\n…その話、長くなりますよ。"
+  }
+ ],
+ "videos": [
+  {
+   "title": "人工芝ってどうやって敷く？ 3分でわかる手順",
+   "time": "3:12",
+   "img": "video-turf",
+   "path": "/video/turf-howto/"
+  },
+  {
+   "title": "防草シートの重ね幅、正解は？",
+   "time": "2:45",
+   "img": "video-sheet",
+   "path": "/video/weed-sheet/"
+  },
+  {
+   "title": "カーポートの選び方 夜の見え方まで",
+   "time": "4:08",
+   "img": "thumb-carport",
+   "path": "/video/carport-night/"
+  },
+  {
+   "title": "人工木ウッドデッキ ○年後のリアル",
+   "time": "5:30",
+   "img": "video-deck",
+   "path": "/video/deck-1year/"
+  }
+ ],
+ "cases": [
+  {
+   "img": "hero-01",
+   "title": "ウッドデッキと植栽で、リビングから続く庭に",
+   "spec": [
+    "神奈川県",
+    "約25㎡",
+    "工期 約2週間"
+   ]
+  },
+  {
+   "img": "hero-04",
+   "title": "雑草に悩んだ庭を、人工芝でお手入れ楽に",
+   "spec": [
+    "東京都",
+    "約30㎡",
+    "工期 2日"
+   ]
+  },
+  {
+   "img": "case-reform",
+   "title": "築30年のマンションを、明るいリビングにリフォーム",
+   "spec": [
+    "埼玉県",
+    "約70㎡",
+    "工期 約1か月"
+   ]
+  },
+  {
+   "img": "hero-03",
+   "title": "ビルトインガレージと照明で魅せる外構",
+   "spec": [
+    "千葉県",
+    "約40㎡",
+    "工期 約1週間"
+   ]
+  },
+  {
+   "img": "case-entrance",
+   "title": "花壇とアプローチで、季節を楽しむ玄関まわり",
+   "spec": [
+    "神奈川県",
+    "約15㎡",
+    "工期 4日"
+   ]
+  },
+  {
+   "img": "fence-design",
+   "title": "低めのフェンスと植栽で開放的な境界に",
+   "spec": [
+    "静岡県",
+    "延長18m",
+    "工期 3日"
+   ]
+  }
+ ],
+ "pickupProducts": [
+  {
+   "img": "thumb-turf",
+   "name": "リアル人工芝ロール",
+   "note": "芝丈35mm・幅1m×10m",
+   "price": "¥8,980〜"
+  },
+  {
+   "img": "prod-light",
+   "name": "モダンライト（ポール型）",
+   "note": "アプローチ・植栽に",
+   "price": "¥14,800"
+  },
+  {
+   "img": "prod-mesh",
+   "name": "DIY用 メッシュフェンス",
+   "note": "高さ800〜1200mm",
+   "price": "¥6,580〜"
+  },
+  {
+   "img": "thumb-deliverybox",
+   "name": "据え置き型 宅配ボックス",
+   "note": "大容量・防水",
+   "price": "¥39,800"
+  },
+  {
+   "img": "prod-camera",
+   "name": "屋外用 防犯カメラ",
+   "note": "Wi-Fi・夜間撮影対応",
+   "price": "¥12,800"
+  },
+  {
+   "img": "prod-stepstone",
+   "name": "敷石・飛び石",
+   "note": "天然石調・アプローチに",
+   "price": "¥1,580／枚"
+  },
+  {
+   "img": "prod-shade",
+   "name": "サンシェード",
+   "note": "3×4m・UVカット",
+   "price": "¥4,980"
+  },
+  {
+   "img": "prod-bench",
+   "name": "ガーデンベンチ",
+   "note": "人工木・3人掛け",
+   "price": "¥29,800"
+  },
+  {
+   "img": "prod-shed",
+   "name": "スチール物置",
+   "note": "引き戸・棚板付",
+   "price": "¥98,000〜"
+  },
+  {
+   "img": "prod-planter",
+   "name": "大型プランター",
+   "note": "セメント調・3サイズ",
+   "price": "¥7,980〜"
+  },
+  {
+   "img": "prod-hose",
+   "name": "ホースリール",
+   "note": "20m・散水ノズル付",
+   "price": "¥6,480"
+  },
+  {
+   "img": "prod-faucet",
+   "name": "立水栓（水受け付）",
+   "note": "木目調ポール",
+   "price": "¥24,800〜"
+  }
+ ],
+ "areas": [
+  {
+   "name": "北海道・東北",
+   "prefs": [
+    "北海道",
+    "宮城",
+    "福島"
+   ]
+  },
+  {
+   "name": "関東",
+   "prefs": [
+    "東京",
+    "神奈川",
+    "埼玉",
+    "千葉",
+    "茨城"
+   ]
+  },
+  {
+   "name": "中部",
+   "prefs": [
+    "愛知",
+    "静岡",
+    "長野",
+    "新潟"
+   ]
+  },
+  {
+   "name": "近畿",
+   "prefs": [
+    "大阪",
+    "兵庫",
+    "京都",
+    "奈良"
+   ]
+  },
+  {
+   "name": "中国・四国",
+   "prefs": [
+    "広島",
+    "岡山",
+    "香川",
+    "愛媛"
+   ]
+  },
+  {
+   "name": "九州・沖縄",
+   "prefs": [
+    "福岡",
+    "熊本",
+    "鹿児島",
+    "沖縄"
+   ]
+  }
+ ],
+ "keywords": [
+  "人工芝 DIY",
+  "目隠しフェンス",
+  "カーポート 価格",
+  "防草シート",
+  "ウッドデッキ 人工木",
+  "外構 費用",
+  "駐車場 コンクリート",
+  "外構 補助金",
+  "宅配ボックス",
+  "門扉",
+  "砂利 敷き方",
+  "庭 おしゃれ",
+  "人工芝 犬",
+  "ベランダ 人工芝"
+ ],
+ "qaCats": [
+  {
+   "id": "turf",
+   "name": "人工芝",
+   "icon": "sprout",
+   "items": [
+    {
+     "q": "人工芝の下に防草シートは必要？",
+     "a": "雑草を抑えたい場合は敷くのがおすすめです。整地・転圧などの下地づくりとセットで考えましょう。",
+     "path": "/garden/turf/install/"
+    },
+    {
+     "q": "犬がいる家でも人工芝は使える？",
+     "a": "使えます。水はけの良い製品を選び、排泄物はこまめに流すのがポイントです。",
+     "path": "/garden/turf/use/"
+    },
+    {
+     "q": "人工芝は何年くらいもつ？",
+     "a": "製品の品質や日当たり、使い方によって変わります。メーカーの耐候試験や保証内容を確認しましょう。",
+     "path": "/garden/turf/quality/"
+    }
+   ]
+  },
+  {
+   "id": "fence",
+   "name": "フェンス・外構",
+   "icon": "house",
+   "items": [
+    {
+     "q": "フェンスの高さはどう決める？",
+     "a": "「誰の、どこからの視線か」を実際に測って決めるのが失敗しないコツです。",
+     "path": "/exterior/fence/fence-guide/"
+    },
+    {
+     "q": "隣との境界にフェンスを立てるときの注意点は？",
+     "a": "境界線の確認と、どちらの敷地に設置するかの合意が大切です。",
+     "path": "/exterior/trap/boundary/"
+    },
+    {
+     "q": "古いブロック塀にフェンスを付けても大丈夫？",
+     "a": "強度の確認が必要です。高い目隠しフェンスは風の力を受けやすいため、施工会社に点検してもらいましょう。",
+     "path": "/exterior/fence/fence-guide/"
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "name": "費用・見積もり",
+   "icon": "coins",
+   "items": [
+    {
+     "q": "外構の見積もりは何社に頼むのがいい？",
+     "a": "比較のためには2〜3社が目安です。内訳がそろった見積もりで比べましょう。",
+     "path": "/exterior/exterior-flow/"
+    },
+    {
+     "q": "見積もりの「一式」は何を確認すればいい？",
+     "a": "何がどれだけ含まれるのか、数量と単価の内訳を出してもらうと比較しやすくなります。",
+     "path": "/exterior/trap/isshiki/"
+    },
+    {
+     "q": "DIYと業者施工、どちらが安い？",
+     "a": "材料費だけならDIYが安く済むことが多いですが、道具代や下地づくりの手間、仕上がりの差も含めて比べるのがおすすめです。",
+     "path": "/column/jinkoshiba-sekou-hiyou-souba/"
+    }
+   ]
+  },
+  {
+   "id": "money",
+   "name": "補助金・お金",
+   "icon": "doc",
+   "items": [
+    {
+     "q": "外構工事に使える補助金はある？",
+     "a": "自治体によっては、生け垣・緑化、ブロック塀の撤去などに補助制度があります。お住まいの自治体の制度を確認しましょう。",
+     "path": "/money/subsidy/"
+    },
+    {
+     "q": "補助金は工事が終わってからでも申請できる？",
+     "a": "着工前の申請が条件になっている制度が多いため、契約前に確認するのが安全です。",
+     "path": "/money/trap/subsidy-timing/"
+    },
+    {
+     "q": "外構工事はローンに組み込める？",
+     "a": "住宅ローンに含められる場合と、別のローンになる場合があります。金融機関に確認しましょう。",
+     "path": "/money/"
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "name": "工事・季節",
+   "icon": "calendar",
+   "items": [
+    {
+     "q": "冬でも外構工事はできる？",
+     "a": "多くの工事は可能です。コンクリートは気温によって養生期間が変わる点に注意します。",
+     "path": "/exterior/winter-work/"
+    },
+    {
+     "q": "工事中、近所へのあいさつは必要？",
+     "a": "車両の出入りや音が出るため、着工前に一言伝えておくとトラブルを防げます。",
+     "path": "/exterior/exterior-flow/"
+    },
+    {
+     "q": "梅雨や台風の時期は避けたほうがいい？",
+     "a": "雨で工程が延びることがあります。余裕のあるスケジュールで計画しましょう。",
+     "path": "/exterior/exterior-flow/"
+    }
+   ]
+  },
+  {
+   "id": "care",
+   "name": "お手入れ・DIY",
+   "icon": "tool",
+   "items": [
+    {
+     "q": "人工芝の掃除はどうすればいい？",
+     "a": "落ち葉やゴミはブロワーやほうきで取り、汚れは水で流すのが基本です。",
+     "path": "/column/niwa-teire-nenkan-calendar/"
+    },
+    {
+     "q": "冬の人工芝で気をつけることは？",
+     "a": "霜や雪の日は無理に歩かず、落ち葉はこまめに取り除きましょう。",
+     "path": "/garden/turf/winter/"
+    },
+    {
+     "q": "DIYで最初にそろえる道具は？",
+     "a": "作業内容によりますが、メジャー・カッター・スコップ・水平器があると多くの作業に対応できます。",
+     "path": "/column/jinkoshiba-diy-shikikata/"
+    }
+   ]
+  }
+ ],
+ "qa": [
+  {
+   "q": "人工芝の下に防草シートは必要？",
+   "a": "雑草を抑えたいなら敷くのがおすすめ。下地の整え方とセットで考えます。",
+   "path": "/garden/turf/install/"
+  },
+  {
+   "q": "外構の見積もりは何社に頼むのがいい？",
+   "a": "比較のためには2〜3社が目安。内訳がそろった見積もりで比べましょう。",
+   "path": "/exterior/exterior-flow/"
+  },
+  {
+   "q": "フェンスの高さはどう決める？",
+   "a": "「誰の、どこからの視線か」を実際に測って決めるのが失敗しないコツ。",
+   "path": "/exterior/fence/fence-guide/"
+  },
+  {
+   "q": "冬でも外構工事はできる？",
+   "a": "多くの工事は可能。コンクリートは気温による養生期間に注意します。",
+   "path": "/exterior/winter-work/"
+  }
+ ]
+}

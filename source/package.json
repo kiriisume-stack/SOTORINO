@@ -1,0 +1,17 @@
+{
+  "name": "sotorino",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SOTORINO（ソトリノ）家まわり情報メディア — 再構築用ソース",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "ssg": "node scripts/build.mjs && node scripts/ssg.cjs",
+    "thumbs": "python3 scripts/thumbs.py",
+    "serve": "cd public && python3 -m http.server 8080",
+    "serve:dist": "cd dist && python3 -m http.server 8081",
+    "check": "node scripts/build.mjs && node scripts/check.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

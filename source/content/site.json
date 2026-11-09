@@ -1,0 +1,5 @@
+{
+ "_説明": "gaId にGoogleアナリティクス4の測定ID（G-から始まる）を入れて書き出すと、全ページに計測タグが入ります。gscVerification はサーチコンソールの「HTMLタグ」で確認するときの content の値です。どちらも空なら何も入りません。",
+ "gaId": "",
+ "gscVerification": ""
+}
